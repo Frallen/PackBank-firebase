@@ -1,0 +1,28 @@
+.Main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.23em 2em;
+  box-shadow: 0 0 5px 0px #000;
+  position: relative;
+
+  .Logo {
+    font-size: 2em;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+  }
+}
+.iconButton{
+  font-size: 1.5em;
+}
+.Draweritem {
+  cursor: pointer;
+  margin-left: 2.7em;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #000;
+  position: relative;
+}

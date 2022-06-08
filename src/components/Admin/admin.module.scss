@@ -1,0 +1,20 @@
+.Main {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  grid-template-rows: 100vh;
+  grid-gap: 1em;
+  .block_Menu {
+    box-shadow: 0px 0px 4px 0px #1890ff;
+  }
+  .tableBlock {
+    margin: 2.5vh 2vw 2vh 0;
+    .tableBlock_header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .addbtn {
+        margin: 1em 0;
+      }
+    }
+  }
+}

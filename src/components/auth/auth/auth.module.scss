@@ -1,0 +1,17 @@
+.formbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 75vh;
+  .formboxtite {
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .form {
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 0px #000;
+    padding: 1em 1.4em;
+    max-width: 357px;
+  }
+}
